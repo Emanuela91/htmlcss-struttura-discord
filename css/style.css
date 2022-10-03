@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
+/* lista menu */
+
 header{
-    
+    height: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+
+}
+
+/* navigazione */
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    padding: 10px 10px;
+}
+
+/* bottone accedi*/
+#button{
+    display: flex;
+    justify-content: right;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color:black;
+}
+
+#browser{
+    background-color: black;
+    color: white;
 }
