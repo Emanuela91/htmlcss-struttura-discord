@@ -77,3 +77,13 @@ section{
 /* fine header */
 
 
+/* inizio Main */
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+/* fine Main */
+
+
+/* inizio Footer */
