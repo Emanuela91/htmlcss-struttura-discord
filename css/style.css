@@ -7,7 +7,7 @@
 /* lista menu */
 
 header{
-    height: 200px;
+    height: 300px;
     background-color: blue;
     color: white;
     font-size: 15px;
@@ -15,27 +15,58 @@ header{
 }
 
 /* navigazione */
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    /* DEBUG */
+    background-color: brown;
+}
+
 ul{
     display: flex;
     justify-content: center;
     list-style: none;
+    width: 50%;
 }
 
 li{
     padding: 10px 10px;
 }
 
-/* bottone accedi*/
-#button{
+#accedi{
+    width: 25%;
     display: flex;
     justify-content: right;
 }
 
-
 a{
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color:black;
+    background-color:white;
+    padding: 15px 30px ;
+}
+
+/* descrizione discord */
+#descrizione{
+    display: flex;
+    justify-content: center;
+    /* width: 50%; */
+    text-align: center;
+}
+
+section{
+    padding: 20px 25%;
+}
+
+/* bottoni */
+#link{
+    margin-top: 30px;
 }
 
 #browser{
