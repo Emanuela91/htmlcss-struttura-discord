@@ -28,7 +28,7 @@ nav{
     background-color: brown;
 }
 
-ul{
+#list-nav{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -91,4 +91,36 @@ section{
 /* fine Main */
 
 
-/* inizio Footer */
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+     /* DEBUG  */
+     background-color: aquamarine;
+}
+
+
+/* Top */
+#footer-top{  
+    display: flex;
+    padding: 20px 25%;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+#lingue{
+   /* DEBUG  */
+   background-color: brown;
+
+}
+
+.footer-menu{
+   /* DEBUG  */
+   background-color: brown;
+    
+}
+
+/* bottom */
+#footer-bottom{
+    width: 200px;
+}
